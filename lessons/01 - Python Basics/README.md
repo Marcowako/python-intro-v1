@@ -8,30 +8,36 @@ We're kicking off the course with some foundational Python knowledge: variables,
 
 ## How to Navigate this Course
 
-To keep our lessons organized and easy to digest, each week features a main landing page (like this one) that acts as your roadmap. Instead of one long scroll, we’ve broken the content into focused sub-pages.
+Each week has a main landing page (like this one) that links out to focused sub-pages, one per topic. Here’s how to get the most out of each one:
 
-For every topic linked on this page, follow these three steps:
+1. **Start with the Objective.** Every sub-page opens with a short list of what you’ll be able to do by the end. Read it before you start. It tells you what to pay attention to. When you finish, use it as a checklist: can you do each thing on the list?
 
-1. **Click into each sub-topic link.** These are designed to be short, focused deep dives into specific concepts. Read and explore the full content before moving on.
-2. **Look for interactive AI prompts within the sub-pages.** We encourage you to experiment with these!
-3. At the end of most sub-topics, you’ll find a **"Check for Understanding"** section. Use these to self-verify that you've grasped the core concepts before moving back to the main landing page.
+2. **Read through the full page before doing anything else.** The content builds on itself, and the code examples are meant to be run as you go. Don’t skim ahead to the exercises.
 
-If you have questions at any point, ask a question in the `#[class_name]-discussion` Slack channel or reach out to your mentor!
+3. **Complete the AI prompts as you encounter them.** Each prompt gives you a specific task: explaining something you just learned, predicting what code will do, or writing a small piece of code on your own. Follow the instructions in each prompt before moving on.
+
+4. **Attempt each Check for Understanding question before revealing the answer.** These appear at the end of most sub-pages. Try to answer from memory first, then click the dropdown arrow to check. If you got it wrong, re-read the relevant section before continuing.
+
+5. **Use Further Reading to go deeper.** Each sub-page ends with a short list of links for topics you want to explore more. These are optional: follow them when something interests you or didn’t fully click.
+
+If you have questions at any point, ask in the `#[class_name]-discussion` Slack channel or reach out to your mentor!
+
+**A note on videos:** Most sub-pages include one or two short videos — primarily from Corey Schafer’s Python tutorial series, which is clear, well-paced, and consistent across the course. These are a great way to reinforce what you’ve read or hear a concept explained in a different way. That said, **watching a video is not a substitute for reading the lesson text.** The reading contains the exercises, AI prompts, and Check for Understanding questions where the real learning happens — videos don’t include those. The recommended pattern: read the lesson first, then use the video as reinforcement if something didn’t click.
 
 ## Topics
 
 1. **[Variables, Data Types, Print/Input](01_variables_datatypes_printinput.md)**
-   *Ported from Python Essentials — PE 1.2 (Variables & Data Types), PE 1.3 (Operators)*
+  
    Variables, data types (int, float, str, bool), type conversion, arithmetic/comparison/logical operators, `print()`, `input()`
 
 2. **[Simple Scripts](02_scripts.md)**
-   *New content*
+   
    Writing short scripts in the online IDE; producing tangible, real-world output; saving and downloading `.py` files for submission
 
 3. **[Debugging Basics](03_debugging_basics.md)**
-   *Ported from Python Essentials — PE 1.7 (Basic Debugging)*
+   
    Reading Python error messages; using `print` statements to trace values and program flow
 
 4. **[Intro to Version Control](04_versioncontrol.md)**
-   *New content (adapted from Intro to Programming — JavaScript)*
+   
    What version control is and why it matters; conceptual intro to Git and GitHub; creating a GitHub repository
