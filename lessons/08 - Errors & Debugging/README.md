@@ -1,26 +1,25 @@
 # Lesson 8 — Errors & Debugging
 
 **Lesson Overview**
-Students learn to write code that handles the unexpected gracefully. This week brings together error handling from Python Essentials with new defensive programming patterns that prepare students for working with external data and APIs.
+
+Every program you've written so far assumed things would go right. The user enters a valid number. The file exists. The calculation makes sense. That assumption works fine while you're learning — but real programs can't make it.
+
+This week you'll learn to write code that handles the unexpected: invalid input, missing files, network failures, and more. You'll meet Python's error-handling tools (`try`, `except`, `raise`) and learn a design philosophy — defensive programming — that shapes how you structure functions from the start. You'll also pick up two tools that will be with you for the rest of your career: the `logging` module for structured program output, and `pip` with virtual environments for managing the packages your projects depend on.
 
 ## Topics
 
 1. **[try/except and Common Runtime Errors](01_try_except.md)**
-   *Ported from Python Essentials — PE 1.8 (Error Handling)*
-   `try`, `except`, `else`, `finally`; catching specific exceptions vs. broad `Exception`; raising exceptions with `raise`; common runtime errors: `ValueError`, `TypeError`, `FileNotFoundError`, `ZeroDivisionError`
+
+   The difference between syntax errors and runtime errors; `try`, `except`, `else`, and `finally`; catching specific exceptions vs. broad `Exception`; the `as e` syntax for inspecting error messages; raising exceptions with `raise`; common runtime exceptions (`ValueError`, `TypeError`, `KeyError`, `IndexError`, `FileNotFoundError`, `ZeroDivisionError`); the `logging` module and its four levels (DEBUG, INFO, WARNING, ERROR)
 
 2. **[Defensive Programming Patterns](02_defensive_programming.md)**
-   *New content (expands on PE 1.8)*
-   Validating inputs before using them; checking for `None` and empty values; writing functions that fail loudly with informative messages; guard clauses; the principle of failing early
+
+   What defensive programming means and why it matters; validating inputs before using them; guard clauses for early returns; checking for `None` and empty values; the difference between failing loudly and silently; `assert` for development-time checks
 
 3. **[Writing Code That Fails Gracefully](03_failing_gracefully.md)**
-   *New content*
-   Wrapping risky operations (file reads, network calls) in `try/except`; providing meaningful fallback behavior or user-facing error messages; the difference between crashing and graceful degradation; applying these patterns to scripts from earlier weeks
 
-   > **Note:** The `logging` module from PE 1.7 is intentionally moved here from Week 1. Students are now writing larger programs where structured logging is more relevant.
+   Crashing vs. graceful degradation; wrapping file reads and network calls in `try/except`; returning safe default values on failure; a complete worked example with CSV file reading; using `logging` in the context of error handling; refactoring an earlier script to be more robust
 
-4. **[pip and Virtual Environments (Conceptual)](04_pip_virtual_environments.md)**
-   *Ported from Python Essentials — PE 2.6 (Virtual Environments)*
-   What `pip` is and how to install a package; what a virtual environment is and why it matters; creating and activating a `.venv`; `requirements.txt`
+4. **[pip and Virtual Environments](04_pip_virtual_environments.md)**
 
-   > **Note:** Virtual environments were introduced in Week 2 setup; this section deepens the conceptual understanding and covers `requirements.txt` for the first time.
+   What `pip` is and how it connects to PyPI; why global package installation causes problems; what a virtual environment is and how it solves those problems; creating and activating `.venv`; `pip freeze > requirements.txt` and `pip install -r requirements.txt`
