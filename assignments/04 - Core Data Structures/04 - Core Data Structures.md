@@ -63,19 +63,6 @@ Create two hardcoded lists of programming languages (some overlap, some unique t
 
 ---
 
-### Warmup 4: List Comprehensions
-
-Start with a hardcoded list of integers. Use list comprehensions to produce two new lists:
-
-1. Only the even numbers from the original list
-2. Every number from the original list squared
-
-Print both results.
-
-**Save as:** `warmup4.py`
-
----
-
 ## Part 2: Mini-Project — Student Roster Analyzer
 
 A data file is provided in `week-4/data/roster.py`. Copy the `students` list from that file into your script — it contains dictionaries with `name`, `score`, and `subject` fields.
@@ -85,7 +72,7 @@ Using loops and data structure operations, your script must:
 1. **Find the top scorer** — loop through the list and track the highest score and the name that goes with it. Do not use Python's built-in `max()` on the list directly.
 2. **Calculate the class average** — accumulate the total score in a loop, then divide.
 3. **List all unique subjects** — use a set to collect subjects as you loop, then print them.
-4. **List high scorers** — use a list comprehension to get the names of all students who scored above 75.
+4. **List high scorers** — use a use a loop and `.append()` to get the names of all students who scored above 75.
 
 Example output:
 ```
@@ -106,7 +93,7 @@ Record a short video (3–5 minutes) on YouTube, Loom, or a similar platform and
 Your video should address the following questions. You don't need to cover every sub-point in depth — aim for clear, conversational explanations over a polished script.
 
 1. What is the difference between a list and a dictionary — when would you reach for each one?
-2. Walk through your list comprehension: what problem did it solve, and how is it different from a `for` loop that does the same thing?
+2. Walk through how you found the top scorer without using max() — what does your loop track and why?
 3. What was surprising or confusing about working with nested data (dictionaries inside a list)?
 
 **Requirements:**
