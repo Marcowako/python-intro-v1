@@ -1,4 +1,4 @@
-# Standard Library Modules: csv, os, datetime
+# Standard Library Modules: `csv`, `os`, `datetime`, `argparse`
 
 ## Modules
 
@@ -52,6 +52,7 @@ You've already worked with `csv` in the previous section. That's part of the sta
 | `datetime` | Work with dates and times |
 | `math` | Mathematical functions |
 | `random` | Generate random numbers |
+| `argparse`| Parse command-line arguments |
 
 You can browse the full standard library in the [official Python documentation](https://docs.python.org/3/library/index.html).
 
@@ -150,6 +151,49 @@ print(now.strftime("%B %d, %Y"))  # e.g., March 15, 2024
 | `%M` | Minute | 32 |
 
 You can find the full list of format codes in the [Python docs](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes).
+
+### Working with `argparse`
+
+The `argparse` module lets your scripts accept input from the command line, so users can customize behavior without editing the code itself.
+
+Unlike the modules above, `argparse` involves a few setup steps rather than a single function call. The typical pattern is: create a parser, define what arguments to expect, then parse them. You have the option to use `argparse` in your final project, feel free to try the example yourself:
+
+**Example:**
+
+```python
+import argparse
+
+parser = argparse.ArgumentParser(description="Greet a user")
+parser.add_argument("name", help="The name to greet")
+args = parser.parse_args()
+
+print(f"Hello, {args.name}!")
+```
+
+Run it like this:
+
+```
+python greet.py Ada
+# Output: Hello, Ada!
+```
+
+**Optional Arguments**
+
+```python
+parser.add_argument("--loud", action="store_true", help="Greet loudly")
+```
+
+Arguments starting with `--` are optional. `action="store_true"` means the flag is either present (`True`) or absent (`False`).
+
+**Built-in Help**
+
+`argparse` automatically generates a `--help` flag for your script:
+
+```
+python greet.py --help
+```
+
+This is especially useful once you combine `argparse` with `os` and `datetime` — for example, writing a script that takes a folder path as an argument and reports when each file was last modified.
 
 ### Check for Understanding
 
