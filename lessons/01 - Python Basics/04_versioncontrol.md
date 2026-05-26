@@ -37,7 +37,7 @@ The following image shows the full workflow you'll be using over the next three 
 
 This week, we are completing the portion of the workflow outlined with the red dashed line. We will work on the remaining steps in Weeks 2 and 3.
 
-> ![Git Flow Diagram — Week 1](link-to-diagram)
+> ![Git Flow Diagram — Week 1](resources/GitFlow-Lesson01.jpg)
 
 ## Assignment — Create a Repository
 
