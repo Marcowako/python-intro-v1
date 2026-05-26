@@ -244,7 +244,7 @@ Notice the two separate functions: one that knows how to fetch and parse data, a
 
 ---
 
-## Videos & Further P
+## Videos & Further Practice
 
 **"Working with JSON Data using the json Module"** (Corey Schafer)
 
