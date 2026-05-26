@@ -122,7 +122,9 @@ Clean data:
   ...
 ```
 
-> **Hint:** You can track skipped rows by storing a description of each failure, then printing them at the end. Use `enumerate()` to get row numbers as you loop.
+> **Hint 1:** You can track skipped rows by storing a description of each failure, then printing them at the end. Use `enumerate()` to get row numbers as you loop.
+
+> **Hint 2:** `csv.DictReader` handles extra fields by storing them under a `None` key rather than raising an exception, so you will need to check if `None in row` as a separate guard before the `try/except`. 
 
 **Save as:** `mini_project.py`
 
