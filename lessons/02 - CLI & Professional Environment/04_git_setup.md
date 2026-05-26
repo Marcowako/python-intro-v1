@@ -71,12 +71,6 @@ To clone your repo:
 
 After cloning, run `ls` (Mac/Linux) or `dir` (Windows) to confirm a new folder with your repository name has appeared.
 
-## The Git / GitHub Workflow
-
-The following image shows the full workflow. This week, we have completed the portion outlined with the red dashed line — your remote repository now has a connected local copy.
-
-![Git Flow Diagram — Week 2](link-to-diagram)
-
 ## Assignment — Verify Your Setup
 
 Let's confirm that Git, GitHub, and Python are all working together.
