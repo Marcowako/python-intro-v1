@@ -189,7 +189,7 @@ Output:
 Found 95 at index 3
 ```
 
-Note: Python has a built-in `list.index()` method and the `in` keyword for simple searches. The manual search pattern is worth learning because it teaches you how searching works under the hood, and you'll need it when your search logic is more complex than a simple equality check.
+Note: Python has a built-in `list.index()` method and the `in` keyword for simple searches. The manual search pattern is worth learning because it teaches you how searching works in the background, and you'll need it when your search logic is more complex than a simple equality check.
 
 ---
 

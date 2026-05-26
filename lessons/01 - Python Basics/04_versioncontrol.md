@@ -6,7 +6,7 @@ When you write Python scripts, each time you save a file you overwrite the previ
 
 Version control solves this problem. A version control system tracks every change you make to your files over time, giving you a full history you can browse, compare, and return to at any point. Think of it like an unlimited undo button — one that works across days, weeks, and entire projects.
 
-Version control also becomes essential when more than one person is working on the same codebase. Without it, two developers editing the same file at the same time would simply overwrite each other's work. With version control, changes can be tracked and merged together in a controlled way. It is a foundational tool in almost every professional software team.
+Version control also becomes essential when more than one person is working on the same codebase. Without it, two developers editing the same file at the same time would overwrite each other's work. With version control, changes can be tracked and merged together in a controlled way. It is a foundational tool in almost every professional software team.
 
 ## Git and GitHub
 

@@ -123,7 +123,7 @@ Ask the AI to give you feedback on your explanation.
 
 ## Sets
 
-A **set** is an unordered collection of **unique** elements. If you add a duplicate, Python simply ignores it.
+A **set** is an unordered collection of **unique** elements. If you add a duplicate, Python ignores it.
 
 ```python
 colors = {"red", "green", "blue", "red"}

@@ -17,7 +17,7 @@ Spend a few minutes reading it:
 - Is the top-level response a list, or a dict with a key that contains a list?
 - What fields does each record have?
 - Are any fields nested (dicts inside dicts, or lists inside dicts)?
-- Are any fields obviously missing or `null` for some records?
+- Are any fields missing or `null` for some records?
 
 > **Tip:** Install a browser extension like JSON Formatter to make raw JSON easier to read. VS Code also has a built-in prettifier — paste the response into a new `.json` file and use the format document shortcut (`Shift+Alt+F` on Windows, `Shift+Option+F` on Mac).
 

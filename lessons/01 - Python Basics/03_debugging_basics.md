@@ -76,7 +76,7 @@ NameError: name 'mesage' is not defined
 
 In this case, we misspelled `message` as `mesage`. Python doesn't guess what you meant; it only knows exact names.
 
-This also happens when you try to use a variable that simply doesn't exist:
+This also happens when you try to use a variable that doesn't exist:
 
 ```python
 print(total)
@@ -161,7 +161,7 @@ total = bill + tip_amount
 print(f"Total: ${total:.2f}")
 ```
 
-By labeling each print with `"DEBUG"`, you can easily spot which lines are temporary and remove them once you've found the bug.
+By labeling each print with `"DEBUG"`, you can spot which lines are temporary and remove them once you've found the bug.
 
 ### Tips for Effective Print Debugging
 
