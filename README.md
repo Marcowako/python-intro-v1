@@ -11,3 +11,4 @@ Check out our [contributing guidelines](https://github.com/Code-the-Dream-School
 ## Homework Repo
 
 Link to homework repo: https://github.com/Code-the-Dream-School/python-intro-homework
+Link to final project repo: https://github.com/Code-the-Dream-School/python-intro-final-project
