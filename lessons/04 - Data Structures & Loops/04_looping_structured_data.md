@@ -169,8 +169,8 @@ students = [
 
 This pattern shows up everywhere:
 - **Week 7**: when you read data from CSV files, you'll get lists of dictionaries
-- **Week 9**: when you fetch data from an API, the response is usually a list of dictionaries
-- **Final Project**: your CLI tool will process lists of dictionaries from an API
+- **Week 9**: when you fetch data from an [API](https://aws.amazon.com/what-is/api/), the response is usually a list of dictionaries
+- **Final Project**: your command-line-interfacde (CLI) tool will process lists of dictionaries from an API
 
 ### Looping Over a List of Dictionaries
 
