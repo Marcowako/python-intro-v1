@@ -46,7 +46,7 @@ Name two things that could fail at runtime — a bad network connection, a missi
 
 ## Step 3 — Set Up the Starter Repository
 
-Clone the starter repository and verify your environment before writing any project code.
+Clone the [starter repository](https://github.com/Code-the-Dream-School/python-intro-final-project) and verify your environment before writing any project code.
 
 **Starter repository structure:**
 
