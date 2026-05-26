@@ -21,7 +21,7 @@ You don't need to memorize everything in this lesson right away. These commands 
 
 ## Opening Your Terminal
 
-How you open the terminal depends on your operating system. In the previous lesson, Reid recommended **Git Bash** for Windows users, so that's what we'll use here.
+How you open the terminal depends on your operating system. In the previous lesson, we recommended **Git Bash** for Windows users, so that's what we'll use here.
 
 - **Windows**: Open **Git Bash** (installed with Git). You can find it in your Start menu or by right-clicking on your desktop and selecting "Git Bash Here."
 - **macOS**: Open **Terminal** (found in Applications > Utilities) or use Spotlight (`Cmd + Space`, then type "Terminal").
