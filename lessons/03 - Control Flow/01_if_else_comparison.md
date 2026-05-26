@@ -1,4 +1,15 @@
-# if/else and Comparison Operators
+# `if` / `else` and Comparison Operators
+
+**Objective:** By the end of this lesson, you'll be able to:
+
+* Explain the role of indentation in Python syntax for defining code blocks and scope, contrasting it with languages that use braces `{}`.
+* Implement proper indentation syntax, including the use of colons `:` and adhering to the 4-space community standard without mixing tabs and spaces.
+* Identify and troubleshoot `IndentationError` bugs in Python scripts.
+* Utilize comparison operators (`==`, `!=`, `<`, `>`, `<=`, `>=`) to evaluate conditions and return boolean values.
+* Differentiate between the assignment operator (`=`) and the equality operator (`==`).
+* Construct conditional structures using `if`, `elif`, and `else` to control program execution flow based on specific conditions.
+* Convert user input strings into integers using `int()` to enable numerical comparisons.
+* Analyze and trace the execution flow of nested conditional statements and rewrite them into flatter, more readable structures.
 
 ## Block Structure and Indentation
 
