@@ -123,7 +123,7 @@ Your video should address the following questions. You don't need to cover every
 - Use screen sharing to walk through your code when relevant
 - Speak in your own words — no need to read from a script
 
-Include the video link in your pull request description or `URL2` field in the submission form.
+Include the video link in your pull request description or `URL1` field in the submission form.
 
 ## Need a GitHub Review?
 
