@@ -31,14 +31,6 @@ This week, you'll create the remote repository on GitHub. In Week 2, you'll copy
 
 **["A Brief introduction to Git for beginners," GitHub](https://youtu.be/r8jQ9hVA2qs?si=Xu9VhBhk-sqBSYFa)**
 
-## The Git / GitHub Workflow
-
-The following image shows the full workflow you'll be using over the next three weeks. Pay attention to where files are located at each step — either on your local machine or remotely on GitHub.
-
-This week, we are completing the portion of the workflow outlined with the red dashed line. We will work on the remaining steps in Weeks 2 and 3.
-
-> ![Git Flow Diagram — Week 1](link-to-diagram)
-
 ## Assignment — Create a Repository
 
 Create a new repository in your GitHub account by following these steps:

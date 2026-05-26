@@ -104,7 +104,7 @@ Choose an option (1-5):
 1. **Find minimum** — loop through the list and track the smallest value. Do not use Python's built-in `min()`.
 2. **Find maximum** — same approach, tracking the largest value. Do not use `max()`.
 3. **Search** — ask the user for a number, then implement a linear search loop. Print the index if found, or a "not found" message.
-4. **Sort** — implement **bubble sort**: repeatedly loop through adjacent pairs, swap if out of order, and repeat until no swaps occur. Print the sorted list. Do not use `sorted()` or `.sort()`.
+4. **Sort** — implement **[bubble sort](https://www.w3schools.com/python/python_dsa_bubblesort.asp)**: repeatedly loop through adjacent pairs, swap if out of order, and repeat until no swaps occur. Print the sorted list. Do not use `sorted()` or `.sort()`.
 5. **Quit** — print a goodbye message and exit the loop.
 
 The menu should redisplay after each operation until the user chooses Quit.

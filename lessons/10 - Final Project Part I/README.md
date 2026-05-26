@@ -5,7 +5,7 @@ The final project spans two weeks. This week you build the foundation that every
 
 Next week you'll extend what you build here by choosing one of two tracks — a data visualization or a data pipeline. Your Week 11 work builds directly on top of Week 10, so getting the core program right this week matters.
 
-Before you start coding, read through the [Final Project Overview](../final-project-overview.md) to understand the full two-week arc, the API options, and the rubric your project will be evaluated against.
+Before you start coding, read through the [Final Project Overview](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/resources/final-project-overview.md) to understand the full two-week arc, the API options, and the rubric your project will be evaluated against.
 
 ## Topics
 
