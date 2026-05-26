@@ -17,6 +17,6 @@ Students learn Python's four core built-in data structures and when to reach for
 
    `for` loops with `range()` and over sequences; `while` loops; `break` and `continue`
 
-4. **[Looping Over Structured Data](03_looping_structured_data.md)**
+4. **[Looping Over Structured Data](04_looping_structured_data.md)**
    *Ported from Python Essentials — PE 2.1 (iteration examples)*
    Iterating over lists, dictionaries (`.items()`), and sets; building lists of dictionaries to represent tabular data; connecting loops (Week 4) to data structures

@@ -5,11 +5,11 @@ Students learn to write programs that repeat actions using loops, then apply tha
 
 ## Topics
 
-1. **[Loop Patterns: Counting, Accumulating, Searching](02_loop_patterns.md)**
+1. **[Loop Patterns: Counting, Accumulating, Searching](01_loop_patterns.md)**
    
    Common loop idioms: counters, running totals, finding a value in a sequence; nested loops; when to use `for` vs. `while`
 
-2. **[List Comprehensions](04_list_comprehensions.md)**
+2. **[List Comprehensions](02_list_comprehensions.md)**
    
    List comprehension syntax `[expr for x in iterable]`; filtering with `if`; comparison to equivalent `for` loop; when to use a comprehension vs. a loop
 
