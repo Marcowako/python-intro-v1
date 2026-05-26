@@ -161,7 +161,7 @@ total = bill + tip_amount
 print(f"Total: ${total:.2f}")
 ```
 
-By labeling each print with `"DEBUG"`, you can easily spot which lines are temporary and remove them once you've found the bug.
+By labeling each print with `"DEBUG"`, you can spot which lines are temporary and remove them once you've found the bug.
 
 ### Tips for Effective Print Debugging
 
