@@ -2,9 +2,7 @@
 
 **Lesson Overview** <br>
 
-> To Do: Rewrite below to be student-facing.
-
-This week students move from the online IDE to a real local development environment. The focus is on tooling fluency: installing Python, navigating the terminal, running scripts from the command line, and getting Git set up. Python content resumes next week.
+This week you will move from the online IDE to a real local development environment. The focus is on tooling fluency: installing Python, navigating the terminal, running scripts from the command line, and getting Git set up. Python content resumes next week.
 
 ## Topics
 
