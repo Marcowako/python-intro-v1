@@ -76,7 +76,7 @@ NameError: name 'mesage' is not defined
 
 In this case, we misspelled `message` as `mesage`. Python doesn't guess what you meant; it only knows exact names.
 
-This also happens when you try to use a variable that simply doesn't exist:
+This also happens when you try to use a variable that doesn't exist:
 
 ```python
 print(total)
