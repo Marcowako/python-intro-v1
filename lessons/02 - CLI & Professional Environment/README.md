@@ -8,10 +8,10 @@ Up until now, you've been writing code in a browser. This week you make the swit
 
 This week, I can...
 
-* I can install Python and VS Code and verify that both are working.
-* I can navigate my file system using terminal commands (`pwd`, `ls`, `cd`, `mkdir`).
-* I can run a Python script from the command line.
-* I can configure Git with my name and email and explain the difference between Git and GitHub.
+* Install Python and VS Code and verify that both are working.
+* Navigate my file system using terminal commands (`pwd`, `ls`, `cd`, `mkdir`).
+* Run a Python script from the command line.
+* Configure Git with my name and email and explain the difference between Git and GitHub.
 
 ## Topics
 
