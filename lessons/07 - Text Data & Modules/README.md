@@ -30,6 +30,6 @@ This week, I can...
    working with dates; using the Python docs to explore a module
 
 7. **[When to Write Your Own Code vs. Import a Module](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/07%20-%20Text%20Data%20%26%20Modules/04_when_to_import.md)**
-8. 
+
    Standard library vs. third-party packages vs. writing from scratch; how to find and evaluate a package; recognizing when a problem is
    already solved
