@@ -4,11 +4,48 @@
 
 The most common sticking point in a project like this isn't writing Python, it's figuring out *what* to write. Students who skip straight to code often end up rewriting functions multiple times because they didn't know what shape their data was in.
 
-Phase 0 takes about 15 minutes. It's not graded. But it will make Phases 1 and 2 significantly smoother.
+---
+
+## Step 1 — Choosing Your API
+
+You'll work with the same API across both weeks, so pick one that genuinely interests you. Three recommended options are listed below. All are free, require no API key, and return data that works well for this project.
+
+### Option 1 — REST Countries
+
+A database of every country in the world, with data on population, area, region, languages, capital city, and more.
+
+- **Base endpoint:** `https://restcountries.com/v3.1/all`
+- **CLI ideas:** filter countries by region, find the largest or most populous country, compare two countries side by side
+- **Option A:** bar chart of the top 10 countries by population or area
+- **Option B:** export a clean CSV of country names, regions, populations, and areas
+- **Docs:** https://restcountries.com
+
+### Option 2 — Open Library Search
+
+A search API for books and authors. Query by author, title, or subject and get a list of matching books with publication year, subject tags, and page count.
+
+- **Base endpoint:** `https://openlibrary.org/search.json?author=tolkien`
+- **CLI ideas:** search for books by author or subject, filter by decade, look up a specific title
+- **Option A:** bar chart of books published per decade for a given author
+- **Option B:** export search results to CSV with title, author, year, and subject
+- **Docs:** https://openlibrary.org/developers/api
+
+### Option 3 — PokeAPI
+
+A complete Pokémon database with stats (HP, attack, defense, speed, special attack, special defense), types, and abilities for every Pokémon.
+
+- **Base endpoint:** `https://pokeapi.co/api/v2/pokemon/{name}` (look up one Pokémon at a time by name)
+- **Note:** Unlike the other two options, PokeAPI requires a separate HTTP request for each Pokémon you want data on. This is a common real-world API pattern, but it's worth knowing before you start.
+- **CLI ideas:** look up a Pokémon by name, compare the stats of two Pokémon, filter a list by type
+- **Option A:** bar chart comparing all six stats for a Pokémon, or a head-to-head stat comparison
+- **Option B:** build a list from user input and export each Pokémon's stats to CSV
+- **Docs:** https://pokeapi.co/docs/v2
+
+> **Using a different API:** If you'd like to use an API not listed here, check with your class's Cohort Instructional Leader (CIL) first. It must be free, require no API key for basic access, and return a list of records that can be structured as a list of dictionaries.
 
 ---
 
-## Step 1 — Explore Your API in the Browser
+## Step 2 — Explore Your API in the Browser
 
 Before opening VS Code, open your API's base URL directly in a browser tab. You'll see the raw JSON response.
 
@@ -23,7 +60,7 @@ Spend a few minutes reading it:
 
 ---
 
-## Step 2 — Answer These Questions Before You Code
+## Step 3 — Answer These Questions Before You Code
 
 Write your answers down — in a comment at the top of `main.py`, in a notebook, or on paper. The format doesn't matter; having the answers written does.
 
@@ -44,7 +81,7 @@ Name two things that could fail at runtime — a bad network connection, a missi
 
 ---
 
-## Step 3 — Set Up the Starter Repository
+## Step 4 — Set Up the Starter Repository
 
 Clone the [starter repository](https://github.com/Code-the-Dream-School/python-intro-final-project) and verify your environment before writing any project code.
 
