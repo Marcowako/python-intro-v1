@@ -11,8 +11,8 @@ Write all of your code in a single file. When you're done, use the **Share** but
 [**Here's a quick video explaining how to use online-python.com**](https://youtu.be/6GOKinRu0m0)
 
 Submit two links in CTD Learns:
-- **URL1:** A link to your video reflection
-- **URL2:** Your shareable online-python.com link
+- **URL1:** Your shareable online-python.com link
+- **URL2:** A link to your video reflection
 
 ---
 

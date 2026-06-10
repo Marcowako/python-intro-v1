@@ -5,8 +5,8 @@
 1. **Create your branch:** From `main`, create a new `assignment-9` branch in your `python-intro-homework` repo.
 2. **Create your folder:** Inside `week-9/`, create a new `assignment-9/` folder and do all your work there.
 3. **Submit two links in CTD Learns:**
-   - **URL1:** A link to your video reflection
-   - **URL2:** A link to your pull request from `assignment-9` into `main`
+   - **URL1:** A link to your pull request from `assignment-9` into `main`
+   - **URL2:** A link to your video reflection
 
 The PR URL should look like `github.com/your-username/python-intro-homework/pull/[number]`, *not the link to your repo homepage*.
 
