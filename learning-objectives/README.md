@@ -2,7 +2,7 @@
 
 By the end of this course, students will be able to:
 
-* Write and execute Python scripts using score language features: variables, data types, control flow, loops, and functions.
+* Write and execute Python scripts using core language features: variables, data types, control flow, loops, and functions.
 * Work with Python's core data structures (lists, tuples, dictionaries, sets) and choose appropriate structures for different tasks.
 * Navigate a professional environment using the command line, VS Code, and Git/GitHub.
 * Read and write data from external sources including text files, CSV files, and public APIs.
