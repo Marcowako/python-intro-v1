@@ -10,8 +10,9 @@
 
 The PR URL should look like `github.com/your-username/python-intro-homework/pull/[number]`, *not the link to your repo homepage*.
 
-> **This is your first GitHub PR submission.** If anything about the workflow is unclear, reach out to your mentor before the due date. It's normal to have questions about GitHub, don't wait until the last minute to ask for help!
-
+> **This is your first GitHub PR submission using the command line.** In Week 1 you used GitHub's web editor as a shortcut to submit your work. This week you'll do the same thing (create a branch, add your files, open a pull request) using Git in your terminal, the way developers work in practice. The concepts are the same; the tools are just more powerful. If anything about the workflow is unclear, reach out to your mentor before the due date. 
+>
+> It's normal to have questions about GitHub — don't wait until the last minute to ask for help!
 ---
 
 ## Part 1: Warmup Exercises
