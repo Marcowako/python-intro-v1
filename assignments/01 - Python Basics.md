@@ -2,17 +2,57 @@
 
 ## Submission Instructions
 
-This week's work is done in an **online Python IDE** at [online-python.com](https://www.online-python.com/) — no local setup or GitHub yet.
-
-Write all of your code in a single file. When you're done, use the **Share** button to generate a shareable link and submit it in CTD Learns.
-
-> **Important:** online-python.com does not save your work automatically. Before closing your browser tab, either copy your code somewhere safe or generate your share link.
+This week's work is done in an **online Python IDE** at [online-python.com](https://www.online-python.com/) — we'll work on local setup next week.
 
 [**Here's a quick video explaining how to use online-python.com**](https://youtu.be/6GOKinRu0m0)
 
+> **Important:** online-python.com does not save your work automatically. Before closing your browser tab, copy your code somewhere safe (a notes app or text file works fine).
+
+When you're finished, you'll upload your code to the GitHub repository you created in Lesson 1.4 using GitHub's web editor and open a pull request. The steps below walk you through the whole process.
+
+> **Don't feel concerned if the GitHub steps feel unfamiliar.** Terms like "branch" and "pull request" will be covered in detail in Weeks 2 and 3. For now, just follow the steps below. You don't need to understand what they mean yet.
+
 Submit two links in CTD Learns:
-- **URL1:** Your shareable online-python.com link
+- **URL1:** A link to your pull request on GitHub (see steps below)
 - **URL2:** A link to your video reflection
+
+---
+
+### Step 1 — Copy your code from online-python.com
+
+In online-python.com, click anywhere in the editor, select all your code (**Ctrl+A** on Windows, **Cmd+A** on Mac), and copy it (**Ctrl+C** / **Cmd+C**).
+
+### Step 2 — Create a new file in your GitHub repository
+
+1. Go to [github.com](https://github.com) and open the repository you created in Lesson 1, Section 4: Version Control (it should be named something like `maria-santiago-python`)
+2. Click the **Add file** button near the top right, then choose **Create new file**
+3. In the filename field at the top, type `assignment-1.py`
+4. Click in the large text area below the filename and paste your code (**Ctrl+V** / **Cmd+V**)
+
+### Step 3 — Commit to a new branch and open a pull request
+
+Scroll down to the **Commit new file** section at the bottom of the page.
+
+1. Leave the commit message as-is or write something brief like `Add assignment 1`
+2. Select **Create a new branch for this commit and start a pull request**
+3. GitHub will suggest a branch name — change it to `assignment-1`
+4. Click **Propose new file**
+5. On the next page (Open a pull request), click **Create pull request**
+
+You now have an open pull request. Copy the URL from your browser's address bar — it will look like `https://github.com/your-username/your-repo-name/pull/1`. This is what you submit in CTD Learns as **URL1**.
+
+### If you need to update your submission
+
+If you need to make changes after submitting (for example, if your mentor asks you to fix something) you don't need to open a new pull request. Just edit the file on the same branch:
+
+1. Go to your repository on GitHub
+2. Click the branch dropdown (it says **main** by default) and select **assignment-1**
+3. Click on `assignment-1.py` to open the file
+4. Click the **pencil icon** (Edit this file) in the top right of the file view
+5. Make your changes in the editor
+6. Scroll down to **Commit changes**, leave the option set to **Commit directly to the `assignment-1` branch**, and click **Commit changes**
+
+Your pull request will update automatically. You don't need to submit a new link.
 
 ---
 
@@ -135,4 +175,4 @@ Your video should address the following questions. You don't need to cover every
 - Use screen sharing to walk through your code when relevant
 - Speak in your own words — no need to read from a script
 
-Include the video link in the `URL1` field in the submission form.
+Include the video link in the `URL2` field in the submission form.
