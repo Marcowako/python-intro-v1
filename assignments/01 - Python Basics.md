@@ -52,7 +52,7 @@ If you need to make changes after submitting (for example, if your mentor asks y
 5. Make your changes in the editor
 6. Scroll down to **Commit changes**, leave the option set to **Commit directly to the `assignment-1` branch**, and click **Commit changes**
 
-Your pull request will update automatically. You don't need to submit a new link.
+As before, grab the link and complete the assignment submission form.
 
 ---
 
