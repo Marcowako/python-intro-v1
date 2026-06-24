@@ -2,7 +2,7 @@
 
 **Lesson Overview**
 
-Up until now, you've been writing code in a browser. This week you make the switch to a real local development environment — the same setup professional developers use every day. It can feel like a lot at once: installing tools, learning terminal commands, getting Git configured. But by the end of the week, you'll be running your own Python scripts from the command line, and that shift will make everything that comes next feel much more real.
+Up until now, you've been writing code in a browser and using GitHub's web editor to submit your work. This week you make the switch to a real local development environment — the same setup professional developers use every day. That means writing code in VS Code, running it from the terminal, and using Git from the command line rather than clicking through a web interface. It can feel like a lot at once: installing tools, learning terminal commands, getting Git configured. But by the end of the week, you'll be running your own Python scripts from the command line, and that shift will make everything that comes next feel much more real.
 
 **Learning Objectives:**
 
