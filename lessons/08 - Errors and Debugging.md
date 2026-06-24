@@ -17,18 +17,18 @@ This week, I can...
 
 ## Topics
 
-1. **[`try`/`except` and Common Runtime Errors](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/08%20-%20Errors%20%26%20Debugging/01_try_except.md)**
+1. **[`try`/`except` and Common Runtime Errors](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/08%20-%20Errors%20and%20Debugging/01_try_except.md)**
 
    The difference between syntax errors and runtime errors; `try`, `except`, `else`, and `finally`; catching specific exceptions vs. broad `Exception`; the `as e` syntax for inspecting error messages; raising exceptions with `raise`; common runtime exceptions (`ValueError`, `TypeError`, `KeyError`, `IndexError`, `FileNotFoundError`, `ZeroDivisionError`); the `logging` module and its four levels (DEBUG, INFO, WARNING, ERROR)
 
-2. **[Defensive Programming Patterns](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/08%20-%20Errors%20%26%20Debugging/02_defensive_programming.md)**
+2. **[Defensive Programming Patterns](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/08%20-%20Errors%20and%20Debugging/02_defensive_programming.md)**
 
    What defensive programming means and why it matters; validating inputs before using them; guard clauses for early returns; checking for `None` and empty values; the difference between failing loudly and silently; `assert` for development-time checks
 
-3. **[Writing Code That Fails Gracefully](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/08%20-%20Errors%20%26%20Debugging/03_failing_gracefully.md)**
+3. **[Writing Code That Fails Gracefully](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/08%20-%20Errors%20and%20Debugging/03_failing_gracefully.md)**
 
    Crashing vs. graceful degradation; wrapping file reads and network calls in `try/except`; returning safe default values on failure; a complete worked example with CSV file reading; using `logging` in the context of error handling; refactoring an earlier script to be more robust
 
-4. **[pip and Virtual Environments](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/08%20-%20Errors%20%26%20Debugging/04_pip_virtual_environments.md)**
+4. **[pip and Virtual Environments](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/08%20-%20Errors%20and%20Debugging/04_pip_virtual_environments.md)**
 
    What `pip` is and how it connects to PyPI; why global package installation causes problems; what a virtual environment is and how it solves those problems; creating and activating `.venv`; `pip freeze > requirements.txt` and `pip install -r requirements.txt`

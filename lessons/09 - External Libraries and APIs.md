@@ -15,14 +15,14 @@ This week, I can...
 
 ## Topics
 
-1. **[The requests Library and JSON Parsing](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/09%20-%20External%20Libraries%20%26%20APIs/01_requests_json.md)**
+1. **[The requests Library and JSON Parsing](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/09%20-%20External%20Libraries%20and%20APIs/01_requests_json.md)**
    
    Installing `requests` via pip; making a GET request with `requests.get()`; understanding HTTP status codes (200, 404, etc.); parsing a JSON response with `.json()`; the relationship between JSON and Python dicts/lists
 
-2. **[Calling a Public API and Handling the Response](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/09%20-%20External%20Libraries%20%26%20APIs/02_calling_apis.md)**
+2. **[Calling a Public API and Handling the Response](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/09%20-%20External%20Libraries%20and%20APIs/02_calling_apis.md)**
    
    What an API is and how public APIs work; reading API documentation to find endpoints and parameters; query parameters in URLs; combining `requests` with `try/except` for robust API calls; working with API keys (conceptual, using a keyless public API for practice)
 
-3. **[Connecting API Data to Dicts and Lists](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/09%20-%20External%20Libraries%20%26%20APIs/03_api_data_structures.md)**
+3. **[Connecting API Data to Dicts and Lists](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/09%20-%20External%20Libraries%20and%20APIs/03_api_data_structures.md)**
    
    Navigating nested JSON (dicts inside lists inside dicts); extracting and transforming relevant fields; building a clean list of dicts from raw API response data; writing a function that fetches and returns structured data

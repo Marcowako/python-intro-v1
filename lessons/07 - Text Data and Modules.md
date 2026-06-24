@@ -14,22 +14,22 @@ This week, I can...
 
 ## Topics
 
-1. **[Reading and Writing .txt and .csv Files](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/07%20-%20Text%20Data%20%26%20Modules/01_reading_writing_files.md)**
+1. **[Reading and Writing .txt and .csv Files](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/07%20-%20Text%20Data%20and%20Modules/01_reading_writing_files.md)**
 
    `open()` with modes `r`, `w`, `a`; the `with` statement; reading line by line; `csv.reader` and `csv.writer`; `csv.DictReader` and
    `csv.DictWriter`
 
-3. **[Parsing Lines Into Data Structures](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/07%20-%20Text%20Data%20%26%20Modules/02_parsing_to_data_structures.md)**
+3. **[Parsing Lines Into Data Structures](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/07%20-%20Text%20Data%20and%20Modules/02_parsing_to_data_structures.md)**
    
    Reading a CSV into a list of dictionaries; accessing fields by header name; connecting file I/O to the data structures from Week 5; a
    practical pattern used throughout data work
 
-5. **[Standard Library Modules: csv, os, datetime](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/07%20-%20Text%20Data%20%26%20Modules/03_standard_library_modules.md)**
+5. **[Standard Library Modules: csv, os, datetime](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/07%20-%20Text%20Data%20and%20Modules/03_standard_library_modules.md)**
    
    Importing modules with `import` and `from ... import`; `csv` (already used above); `os` for file/directory operations; `datetime` for
    working with dates; using the Python docs to explore a module
 
-7. **[When to Write Your Own Code vs. Import a Module](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/07%20-%20Text%20Data%20%26%20Modules/04_when_to_import.md)**
+7. **[When to Write Your Own Code vs. Import a Module](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/07%20-%20Text%20Data%20and%20Modules/04_when_to_import.md)**
 
    Standard library vs. third-party packages vs. writing from scratch; how to find and evaluate a package; recognizing when a problem is
    already solved

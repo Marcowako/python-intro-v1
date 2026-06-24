@@ -15,21 +15,21 @@ This week, I can...
 
 ## Topics
 
-1. **[Loop Patterns: Counting, Accumulating, Searching](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/05%20-%20Iteration%20%26%20Algorithms/01_loop_patterns.md)**
+1. **[Loop Patterns: Counting, Accumulating, Searching](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/05%20-%20Iteration%20and%20Algorithms/01_loop_patterns.md)**
    
    Common loop idioms: counters, running totals, finding a value in a sequence; nested loops; when to use `for` vs. `while`
 
-2. **[List Comprehensions](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/05%20-%20Iteration%20%26%20Algorithms/02_list_comprehensions.md)**
+2. **[List Comprehensions](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/05%20-%20Iteration%20and%20Algorithms/02_list_comprehensions.md)**
    
    List comprehension syntax `[expr for x in iterable]`; filtering with `if`; comparison to equivalent `for` loop; when to use a
    comprehension vs. a loop
 
-4. **[Sorting and Searching Algorithms](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/05%20-%20Iteration%20%26%20Algorithms/03_sorting_searching_algorithms.md)**
+4. **[Sorting and Searching Algorithms](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/05%20-%20Iteration%20and%20Algorithms/03_sorting_searching_algorithms.md)**
   
    Linear search; binary search (conceptual + implementation); bubble sort and/or selection sort; algorithmic thinking: understanding what
    an algorithm is and how to evaluate it
 
-5. **[Debugging Loops](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/05%20-%20Iteration%20%26%20Algorithms/04_debugging_loops.md)**
+5. **[Debugging Loops](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/05%20-%20Iteration%20and%20Algorithms/04_debugging_loops.md)**
    
    Common loop bugs: off-by-one errors, infinite loops, wrong accumulator logic; using `print` statements to trace loop state; strategies
    for checking loop bounds

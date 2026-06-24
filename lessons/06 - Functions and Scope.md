@@ -14,15 +14,15 @@ This week, I can...
 
 ## Topics
 
-1. **[Defining Functions: Parameters and Return Values](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/06%20-%20Functions%20%26%20Scope/01_defining_functions.md)**
+1. **[Defining Functions: Parameters and Return Values](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/06%20-%20Functions%20and%20Scope/01_defining_functions.md)**
 
    `def` syntax; positional parameters; default parameter values; `return`; calling functions and using return values
 
-3. **[Variable Scope](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/06%20-%20Functions%20%26%20Scope/02_variable_scope.md)**
+3. **[Variable Scope](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/06%20-%20Functions%20and%20Scope/02_variable_scope.md)**
    
    Local vs. global variables; why local scope matters; what happens when a function name shadows a global; common scope bugs
 
-5. **[Refactoring Earlier Scripts Into Functions](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/06%20-%20Functions%20%26%20Scope/03_refactoring_with_functions.md)**
+5. **[Refactoring Earlier Scripts Into Functions](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/06%20-%20Functions%20and%20Scope/03_refactoring_with_functions.md)**
    
    Taking a script from a previous week and breaking it into named functions; identifying what should be a function vs. top-level code;
    docstrings (brief intro); why modularity makes code easier to test and reuse
