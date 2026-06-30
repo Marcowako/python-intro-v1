@@ -2,7 +2,7 @@
 
 ## Project Requirements
 
-Make sure you've read through the [Final Project Overview](../final-project-overview.md) to understand the full two-week arc, the API options, and the rubric your project will be evaluated against.
+Make sure you've read through the [Final Project Overview](https://github.com/Code-the-Dream-School/python-intro-v1/blob/e806b92ce4fb9fb0341679952fceeb6ee2ae16ee/resources/final-project-overview.md) to understand the full two-week arc, the API options, and the rubric your project will be evaluated against.
 
 ### Phase 1: Core Program
 
