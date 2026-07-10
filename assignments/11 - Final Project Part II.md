@@ -81,36 +81,48 @@ Upload to YouTube (unlisted) or Loom.
 
 ## Need a GitHub Review?
 
-Open the dropdown box below:
-
 <details>
 <summary>Weekly Git workflow reference (click to expand)</summary>
 
-**At the start of each week — get a clean starting point:**
+## Review: The GitHub Cycle
 
-```bash
-git checkout main
+This is your repeatable workflow for every assignment. Wherever you see `assignment-N`, replace `N` with the current assignment number (e.g. `assignment-3`) and use the same branch name in every command for that assignment. 
+
+**Get a clean starting point:**
+
+```git checkout main
 git pull origin main
-git checkout -b week-[#]     
+git checkout -b assignment-N   # replace N: e.g. assignment-3
 ```
 
-**As you work — save your progress:**
+`origin` is your fork. `git pull origin main` syncs your local main with your fork on GitHub; it's normal to see "Already up to date."
 
-```bash
+**Save your progress:**
+
+```
 git status                    # see what's changed (run this often)
 git add .                     # stage all changes
 git commit -m "describe what you did and why"
-git push origin week-[#]        # send your branch to GitHub
+git push origin assignment-N  # send your branch to GitHub
 ```
 
-You can repeat the `add → commit → push` steps as many times as you like within a week. Committing often gives you more points to return to if something goes wrong — you don't have to wait until you're finished.
+Repeat `add → commit → push` as often as you like. Committing often gives you more points to return to if something goes wrong.
 
-**After your PR is merged on GitHub — close the loop:**
+**Open your pull request:**
 
-```bash
+On GitHub, open a pull request from `assignment-N` into main. Confirm the base repository is your own fork (`your-username/python-intro-homework`), not `Code-the-Dream-School`.
+
+**Close the looop:**
+
+```
 git checkout main
 git pull origin main          # bring the merged changes back to your local machine
 ```
+
+**If something looks off:**
+
+* Committed to main by accident? (You forgot to create your branch first.) Make the branch now: `git checkout -b assignment-N` carries your latest commits with it, then continue. Your work isn't lost.
+* `git push` says your branch has "no upstream"? You haven't pushed this branch before. Run `git push origin assignment-N` to create it on your fork.
 </details>
 
 ## 🎉 Congrats on submitting your Python Intro final project!
