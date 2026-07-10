@@ -1,5 +1,16 @@
 # Assignment 2 — CLI & Professional Environment
 
+## Before You Start: You Should Already Have Forked and Cloned
+
+This assignment assumes you've completed the setup steps from this week's lesson, specifically that you have:
+
+1. **Forked** the shared `Code-the-Dream-School/python-intro-homework` repository to your own GitHub account, and
+2. **Cloned your fork** to your local machine.
+
+All of your work this week happens inside your **local clone of your fork**: the `python-intro-homework` folder on your computer. When you check the address of your repo, it should read `github.com/your-username/python-intro-homework`, with *your* username, not `Code-the-Dream-School`.
+
+If you haven't forked and cloned yet, stop and complete the ["Forking and Cloning the Homework Repository" section](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/04_git_setup.md) of the setup lesson first.
+
 ## Submission Instructions
 
 1. **Create your branch:** From `main`, create a new `assignment-2` branch in your `python-intro-homework` repo.
@@ -9,6 +20,8 @@
    - **URL2:** A link to your video reflection
 
 The PR URL should look like `github.com/your-username/python-intro-homework/pull/[number]`, *not the link to your repo homepage*.
+
+> **Point your PR at your own fork, not the original.** Because your repo is a fork, GitHub will default your pull request's *base* to `Code-the-Dream-School/python-intro-homework`. That's the wrong target. When you open the PR, check the base repository dropdown and make sure it reads `your-username/python-intro-homework` — if your PR URL contains `Code-the-Dream-School`, close it and open a new one against your own fork. (This is covered in more detail in the setup lesson.)
 
 > **This is your first GitHub PR submission using the command line.** In Week 1 you used GitHub's web editor as a shortcut to submit your work. This week you'll do the same thing (create a branch, add your files, open a pull request) using Git in your terminal, the way developers work in practice. The concepts are the same; the tools are just more powerful. If anything about the workflow is unclear, reach out to your mentor before the due date. 
 >
@@ -138,6 +151,8 @@ git checkout main
 git pull origin main
 git checkout -b assignment-2
 ```
+
+Here `origin` is your fork. `git pull origin main` brings your local `main` in sync with your fork on GitHub — which matters once you've merged a PR and want those changes locally. Early on it may report "Already up to date," and that's fine.
 
 **As you work — save your progress:**
 
