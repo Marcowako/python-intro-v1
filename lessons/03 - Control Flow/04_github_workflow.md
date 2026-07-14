@@ -74,7 +74,7 @@ git push origin week-3
 - [ ] Go to your GitHub repository page — you should see a notice that `week-3` had a recent push, with a green **Compare & pull request** button. Click it.
 - [ ] Add any notes or questions for your reviewer in the description field
 - [ ] Click **Create pull request**
-- [ ] Copy the URL of your pull request (it will look like `https://github.com/your-username/firstname-lastname-python/pull/1`) and paste it into your assignment submission form
+- [ ] Copy the URL of your pull request (it will look like `https://github.com/your-username/python-intro-homework/pull/1`) and paste it into your assignment submission form
 
 ## Merging and Syncing Back
 
